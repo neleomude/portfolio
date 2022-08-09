@@ -1,0 +1,31 @@
+*{
+    scroll-behavior:smooth;
+ 
+}
+a:hover{
+    color: #F25C16;
+    filter: drop-shadow(0 0 2px #F25C16);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link:active{
+    color: #F25C16;
+    filter: drop-shadow(0 0 2px #F25C16);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #F25C16;
+    filter: drop-shadow(0 0 2px #F25C16);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color: #F25C16;
+    filter: drop-shadow(0 0 2px #F25C16);
+}
+.jumbotron{
+   
+  background-color: #c6b5ad;
+}
